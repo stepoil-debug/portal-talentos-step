@@ -116,6 +116,7 @@ function addPeopleSection(root, landing) {
     <h2>${escapeHtml(t.peopleTitle)}</h2>
     <p>${escapeHtml(t.peopleText)}</p>`;
   about.before(people);
+  about.remove();
 }
 
 function injectVisualStyles() {
