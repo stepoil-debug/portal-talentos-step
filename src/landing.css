@@ -1,0 +1,48 @@
+#step-careers-root:not(.is-form-open) .step-careers-form-phase{display:none!important}
+#step-careers-root.is-form-open .step-careers-landing{display:none!important}
+
+.step-careers-logo{display:block;width:clamp(170px,16vw,240px);height:48px;object-fit:contain;object-position:left center}
+.step-careers-brand{min-width:180px}
+.step-careers-brandmark,.step-careers-brandtext{display:none!important}
+
+.step-careers-landing{display:grid;gap:28px}
+.step-careers-landing-hero{position:relative;overflow:hidden;min-height:560px;border-radius:30px;padding:clamp(34px,6vw,78px);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(360px,.85fr);gap:44px;align-items:center;background:linear-gradient(135deg,#06172f 0%,#082d68 54%,#0878c7 100%);box-shadow:0 30px 80px rgba(6,23,47,.2);color:#fff}
+.step-careers-landing-hero:after{content:"";position:absolute;inset:auto -160px -230px auto;width:560px;height:560px;border:1px solid rgba(255,255,255,.12);border-radius:50%}
+.step-careers-landing-copy{position:relative;z-index:3;max-width:760px}
+.step-careers-landing-eyebrow,.step-careers-welcome-heading>span,.step-careers-collaboration-kicker,.step-careers-final-cta>div>span{font-size:12px;font-weight:850;letter-spacing:.14em;text-transform:uppercase}
+.step-careers-landing-eyebrow{display:inline-flex;padding:8px 12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);border-radius:999px;color:#d8eeff;margin-bottom:22px;backdrop-filter:blur(10px)}
+.step-careers-landing-copy h1{margin:0 0 20px;max-width:760px;font-size:clamp(48px,7vw,88px);line-height:.98;letter-spacing:-.055em;color:#fff}
+.step-careers-landing-lead{margin:0 0 12px;max-width:720px;font-size:clamp(19px,2.2vw,27px);line-height:1.35;color:#f3f8ff;font-weight:650}
+.step-careers-landing-text{margin:0;max-width:690px;font-size:15px;line-height:1.75;color:#c7dcf3}
+.step-careers-landing-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:30px}
+.step-careers-start{border:0;border-radius:13px;padding:0 22px;min-height:52px;display:inline-flex;align-items:center;gap:22px;background:#fff;color:#082d68;font:inherit;font-weight:850;font-size:14px;cursor:pointer;box-shadow:0 14px 32px rgba(2,12,28,.18);transition:transform .18s ease,box-shadow .18s ease}
+.step-careers-start:hover{transform:translateY(-2px);box-shadow:0 18px 38px rgba(2,12,28,.24)}
+.step-careers-start span:last-child{font-size:22px;line-height:1}
+.step-careers-landing-small{font-size:12px;color:#c4d8ef}
+.step-careers-market-chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.step-careers-market-chips span{padding:7px 11px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.13);font-size:11px;font-weight:750;color:#dcedff}
+
+.step-careers-landing-visual{position:relative;z-index:2;height:410px;display:grid;place-items:center}
+.step-careers-world-card{position:relative;z-index:5;width:230px;height:230px;border-radius:50%;display:grid;place-items:center;align-content:center;text-align:center;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.3),rgba(255,255,255,.1) 35%,rgba(255,255,255,.04) 70%);border:1px solid rgba(255,255,255,.22);box-shadow:inset 0 0 70px rgba(255,255,255,.05),0 28px 60px rgba(0,0,0,.16);backdrop-filter:blur(12px)}
+.step-careers-world-icon{font-size:34px;color:#8fd8ff;margin-bottom:8px}.step-careers-world-card strong{font-size:21px}.step-careers-world-card span{margin-top:5px;font-size:11px;color:#c8dff7}
+.step-careers-orbit{position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.16)}
+.step-careers-orbit-one{width:330px;height:330px}.step-careers-orbit-two{width:410px;height:260px;transform:rotate(-20deg)}
+.step-careers-float-card{position:absolute;z-index:6;display:flex;align-items:center;gap:9px;padding:11px 14px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(12px);font-size:11px;font-weight:750;color:#eff7ff;box-shadow:0 14px 28px rgba(0,0,0,.12)}
+.step-careers-float-card span{width:27px;height:27px;border-radius:8px;display:grid;place-items:center;background:rgba(255,255,255,.14);font-size:10px;color:#9edcff}.step-careers-float-card.card-one{top:38px;left:4px}.step-careers-float-card.card-two{right:0;top:160px}.step-careers-float-card.card-three{bottom:38px;left:26px}
+.step-careers-landing-glow{position:absolute;border-radius:50%;filter:blur(2px);pointer-events:none}.step-careers-landing-glow-a{width:320px;height:320px;left:-150px;bottom:-130px;background:radial-gradient(circle,rgba(26,169,232,.22),transparent 68%)}.step-careers-landing-glow-b{width:400px;height:400px;right:-160px;top:-180px;background:radial-gradient(circle,rgba(87,194,255,.19),transparent 68%)}
+
+.step-careers-welcome{padding:clamp(34px,5vw,66px) clamp(4px,2vw,18px) 14px}
+.step-careers-welcome-heading{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);column-gap:52px;align-items:start;margin-bottom:34px}
+.step-careers-welcome-heading>span{grid-column:1/-1;color:#0871c1;margin-bottom:12px}.step-careers-welcome-heading h2{margin:0;font-size:clamp(31px,4vw,50px);line-height:1.05;letter-spacing:-.035em;color:#071b3d}.step-careers-welcome-heading p{margin:3px 0 0;color:#607089;font-size:15px;line-height:1.75;max-width:650px}
+.step-careers-values{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.step-careers-value-card{background:#fff;border:1px solid #dce5f0;border-radius:18px;padding:22px;min-height:205px;box-shadow:0 12px 28px rgba(7,27,61,.045);transition:transform .18s ease,border-color .18s ease}.step-careers-value-card:hover{transform:translateY(-3px);border-color:#b8d3f2}.step-careers-value-number{font-size:11px;font-weight:900;color:#0b72c5;letter-spacing:.08em;margin-bottom:28px}.step-careers-value-card h3{margin:0 0 9px;font-size:17px;color:#0b2247}.step-careers-value-card p{margin:0;color:#65748a;font-size:13px;line-height:1.62}
+
+.step-careers-collaboration{margin-top:6px;border-radius:24px;padding:clamp(28px,4vw,48px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center;background:linear-gradient(135deg,#eef7ff,#f8fbff);border:1px solid #d8e8f8}.step-careers-collaboration-kicker{display:block;color:#0871c1;margin-bottom:10px}.step-careers-collaboration h2{margin:0;font-size:clamp(28px,3.5vw,44px);line-height:1.08;letter-spacing:-.03em;color:#071b3d}.step-careers-collaboration p{margin:0;font-size:15px;line-height:1.75;color:#5d6d84}
+
+.step-careers-final-cta{margin-top:2px;border-radius:24px;padding:clamp(30px,5vw,58px);display:flex;align-items:center;justify-content:space-between;gap:34px;background:#071b3d;color:#fff;box-shadow:0 20px 55px rgba(7,27,61,.16)}.step-careers-final-cta>div>span{display:block;color:#7bcaff;margin-bottom:10px}.step-careers-final-cta h2{margin:0 0 9px;max-width:760px;font-size:clamp(29px,3.6vw,48px);line-height:1.08;letter-spacing:-.032em}.step-careers-final-cta p{margin:0;max-width:720px;color:#b7c9df;line-height:1.65;font-size:14px}.step-careers-start-light{flex:0 0 auto}
+
+.step-careers-back{border:0;background:transparent;color:#52647d;font:inherit;font-size:12px;font-weight:800;padding:4px 0 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}.step-careers-back:hover{color:#0757d4}
+#step-careers-root.is-form-open .step-careers-container{padding-top:28px}
+#step-careers-root.is-form-open .step-careers-hero{scroll-margin-top:96px}
+
+@media(max-width:980px){.step-careers-landing-hero{grid-template-columns:1fr;min-height:auto}.step-careers-landing-visual{height:330px}.step-careers-welcome-heading,.step-careers-collaboration{grid-template-columns:1fr}.step-careers-values{grid-template-columns:repeat(2,minmax(0,1fr))}.step-careers-final-cta{align-items:flex-start;flex-direction:column}}
+@media(max-width:640px){.step-careers-logo{width:155px;height:40px}.step-careers-landing{gap:18px}.step-careers-landing-hero{border-radius:20px;padding:30px 22px}.step-careers-landing-copy h1{font-size:46px}.step-careers-landing-lead{font-size:19px}.step-careers-landing-visual{display:none}.step-careers-welcome{padding:32px 0 8px}.step-careers-values{grid-template-columns:1fr}.step-careers-value-card{min-height:auto}.step-careers-collaboration,.step-careers-final-cta{border-radius:18px;padding:26px 22px}.step-careers-final-cta .step-careers-start{width:100%;justify-content:space-between}.step-careers-market-chips span{font-size:10px}}
