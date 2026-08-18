@@ -1,0 +1,49 @@
+:root {
+  --step-careers-navy:#071b3d;
+  --step-careers-blue:#0757d4;
+  --step-careers-blue-2:#0b6bff;
+  --step-careers-cyan:#dfeeff;
+  --step-careers-bg:#f5f8fc;
+  --step-careers-card:#ffffff;
+  --step-careers-text:#10213d;
+  --step-careers-muted:#64748b;
+  --step-careers-border:#d9e2ef;
+  --step-careers-success:#0f9f64;
+  --step-careers-danger:#d63b3b;
+  --step-careers-warning:#d99200;
+  --step-careers-radius:18px;
+  --step-careers-shadow:0 14px 40px rgba(7,27,61,.08);
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--step-careers-bg);color:var(--step-careers-text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+
+.step-careers-shell{min-height:100vh;background:linear-gradient(180deg,#fff 0,#f6f9fd 34%,#f5f8fc 100%)}
+.step-careers-topbar{height:76px;background:#fff;border-bottom:1px solid var(--step-careers-border);display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,5vw,72px);position:sticky;top:0;z-index:50}
+.step-careers-brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--step-careers-navy)}
+.step-careers-brandmark{width:42px;height:42px;border:3px solid var(--step-careers-blue);border-radius:50%;display:grid;place-items:center;font-weight:900;color:var(--step-careers-blue);letter-spacing:-1px}
+.step-careers-brandtext strong{display:block;font-size:18px;letter-spacing:.01em}.step-careers-brandtext span{font-size:11px;color:var(--step-careers-muted);text-transform:uppercase;letter-spacing:.13em}
+
+.step-careers-language{display:flex;align-items:center;gap:8px}.step-careers-language-label{font-size:13px;color:var(--step-careers-muted);margin-right:4px}.step-careers-language a{min-width:38px;height:34px;padding:0 10px;border-radius:9px;display:grid;place-items:center;border:1px solid transparent;text-decoration:none;color:#3d4b63;font-size:12px;font-weight:700}.step-careers-language a:hover{background:#eef5ff}.step-careers-language a[aria-current="page"]{background:#e8f1ff;color:var(--step-careers-blue);border-color:#c9dcff}
+
+.step-careers-container{width:min(1220px,calc(100% - 32px));margin:0 auto;padding:46px 0 72px}.step-careers-hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:30px;align-items:end;margin-bottom:28px}.step-careers-badge{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:#eaf2ff;color:var(--step-careers-blue);font-weight:800;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:14px}.step-careers-hero h1{font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-.035em;margin:0 0 14px;color:var(--step-careers-navy)}.step-careers-hero p{margin:0;max-width:850px;font-size:16px;line-height:1.7;color:#52627b}.step-careers-hero-note{margin-top:8px!important;font-size:14px!important;color:#718096!important}.step-careers-progress-card{min-width:220px;background:var(--step-careers-card);border:1px solid var(--step-careers-border);border-radius:16px;padding:16px 18px;box-shadow:var(--step-careers-shadow)}.step-careers-progress-label{font-size:12px;color:var(--step-careers-muted);margin-bottom:8px}.step-careers-progress-track{height:8px;background:#edf2f8;border-radius:999px;overflow:hidden}.step-careers-progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--step-careers-blue),var(--step-careers-blue-2));border-radius:inherit;transition:width .25s ease}.step-careers-progress-value{font-weight:800;color:var(--step-careers-navy);font-size:13px;margin-top:8px}
+
+.step-careers-form{display:grid;gap:16px}.step-careers-section{background:var(--step-careers-card);border:1px solid var(--step-careers-border);border-radius:var(--step-careers-radius);box-shadow:0 8px 26px rgba(7,27,61,.05);padding:24px}.step-careers-section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}.step-careers-section h2{font-size:18px;margin:0;color:var(--step-careers-navy);letter-spacing:-.01em}.step-careers-section-hint{font-size:12px;color:var(--step-careers-muted)}
+
+.step-careers-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:15px}.step-careers-field{grid-column:span 6;display:flex;flex-direction:column;gap:7px}.step-careers-field.is-full{grid-column:1/-1}.step-careers-field.is-third{grid-column:span 4}.step-careers-field.is-quarter{grid-column:span 3}.step-careers-field label,.step-careers-label{font-size:12px;font-weight:750;color:#31415a}.step-careers-field label span{color:var(--step-careers-danger)}
+.step-careers-field input,.step-careers-field select,.step-careers-field textarea{width:100%;border:1px solid #ccd7e7;border-radius:10px;background:#fff;color:var(--step-careers-text);font:inherit;font-size:14px;outline:none;transition:border-color .15s,box-shadow .15s;background-clip:padding-box}.step-careers-field input,.step-careers-field select{height:44px;padding:0 12px}.step-careers-field textarea{min-height:104px;resize:vertical;padding:12px}.step-careers-field input:focus,.step-careers-field select:focus,.step-careers-field textarea:focus{border-color:#72a7ff;box-shadow:0 0 0 3px rgba(11,107,255,.11)}
+
+.step-careers-repeat-list{display:grid;gap:12px}.step-careers-repeat-item{border:1px solid #e2e8f1;background:#fbfdff;border-radius:14px;padding:16px;position:relative}.step-careers-repeat-actions{display:flex;justify-content:flex-end;margin-top:12px}.step-careers-inline-check{display:flex;align-items:center;gap:8px;margin-top:2px;font-size:13px;color:#4d5d75}.step-careers-inline-check input{width:16px;height:16px;accent-color:var(--step-careers-blue)}
+
+.step-careers-qualifications{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:16px}.step-careers-chip-check{display:flex;align-items:center;gap:9px;border:1px solid #d8e2ef;background:#fbfdff;border-radius:10px;padding:11px 12px;font-size:13px;color:#33445d}.step-careers-chip-check input{accent-color:var(--step-careers-blue)}
+
+.step-careers-btn{border:0;border-radius:10px;min-height:42px;padding:0 16px;font:inherit;font-size:13px;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .15s,box-shadow .15s,background .15s}.step-careers-btn:hover{transform:translateY(-1px)}.step-careers-btn-primary{background:linear-gradient(135deg,var(--step-careers-blue),var(--step-careers-blue-2));color:#fff;box-shadow:0 10px 24px rgba(7,87,212,.2)}.step-careers-btn-secondary{background:#fff;color:var(--step-careers-blue);border:1px solid #b9cff2}.step-careers-btn-ghost{background:#f6f8fb;color:#6b778b;border:1px solid #e0e7f0}.step-careers-btn-danger{background:#fff5f5;color:var(--step-careers-danger);border:1px solid #f2caca}.step-careers-btn-small{min-height:36px;padding:0 12px;font-size:12px}
+
+.step-careers-footer-actions{position:sticky;bottom:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 18px;margin-top:2px;border:1px solid var(--step-careers-border);border-radius:16px;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);box-shadow:0 -12px 34px rgba(7,27,61,.06)}.step-careers-consent{display:flex;align-items:flex-start;gap:10px;max-width:760px;font-size:12px;line-height:1.55;color:#5b6a80}.step-careers-consent input{margin-top:2px;accent-color:var(--step-careers-blue)}.step-careers-actions{display:flex;gap:10px;white-space:nowrap}
+
+.step-careers-status{display:none;border-radius:12px;padding:13px 15px;font-size:13px;font-weight:700;margin-bottom:4px}.step-careers-status.is-visible{display:block}.step-careers-status.is-success{background:#ebfbf4;color:#0b7650;border:1px solid #bfe8d5}.step-careers-status.is-error{background:#fff1f1;color:#a52828;border:1px solid #f0c5c5}.step-careers-status.is-info{background:#edf5ff;color:#185cae;border:1px solid #c8ddfb}
+
+.step-careers-seo-context{margin:28px 0 0;padding:20px 22px;border-radius:14px;background:#eef5ff;border:1px solid #d7e6fb;color:#44566f}.step-careers-seo-context h2{font-size:16px;margin:0 0 8px;color:var(--step-careers-navy)}.step-careers-seo-context p{font-size:13px;line-height:1.65;margin:0}.step-careers-seo-context a{color:var(--step-careers-blue);font-weight:750}
+
+@media (max-width:900px){.step-careers-hero{grid-template-columns:1fr}.step-careers-progress-card{display:none}.step-careers-field,.step-careers-field.is-third,.step-careers-field.is-quarter{grid-column:1/-1}.step-careers-qualifications{grid-template-columns:repeat(2,minmax(0,1fr))}.step-careers-footer-actions{position:static;align-items:stretch;flex-direction:column}.step-careers-actions{display:grid;grid-template-columns:1fr 1fr}.step-careers-topbar{height:auto;min-height:72px;padding:12px 18px;gap:12px}.step-careers-language-label{display:none}}
+@media (max-width:560px){.step-careers-container{width:min(100% - 20px,1220px);padding-top:30px}.step-careers-section{padding:18px}.step-careers-section-head{align-items:flex-start;flex-direction:column}.step-careers-qualifications{grid-template-columns:1fr}.step-careers-language{gap:2px}.step-careers-language a{min-width:32px;padding:0 7px}.step-careers-brandtext span{display:none}.step-careers-actions{grid-template-columns:1fr}.step-careers-hero h1{font-size:34px}}
