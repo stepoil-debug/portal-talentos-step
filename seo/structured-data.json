@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://step-og.com/#organization",
+      "name": "STEP Oil & Gas",
+      "alternateName": [
+        "STEP",
+        "STEP Integrated Solutions",
+        "STEP Solutions"
+      ],
+      "url": "https://step-og.com/",
+      "description": "Engineering company with global operations focused on integrated solutions for the oil and gas industry.",
+      "areaServed": [
+        "Brazil",
+        "Portugal",
+        "Namibia",
+        "Norway",
+        "United States",
+        "Romania",
+        "Guyana"
+      ],
+      "knowsAbout": [
+        "Oil and Gas",
+        "FPSO",
+        "Offshore Engineering",
+        "Construction",
+        "Installation",
+        "Procurement",
+        "Manpower",
+        "Welding",
+        "Mechanical Services",
+        "Rope Access",
+        "NDT Inspection"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://step-og.com/careers/#webpage",
+      "url": "https://step-og.com/careers/",
+      "name": "STEP Careers | Global Talent Profile | STEP Oil & Gas",
+      "about": {
+        "@id": "https://step-og.com/#organization"
+      },
+      "description": "Global talent profile and career registration for STEP Oil & Gas and STEP Integrated Solutions.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "STEP Oil & Gas",
+          "item": "https://step-og.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "STEP Careers",
+          "item": "https://step-og.com/careers/"
+        }
+      ]
+    }
+  ]
+}
