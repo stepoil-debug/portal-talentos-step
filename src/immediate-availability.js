@@ -1,3 +1,5 @@
+import './visual-polish.js?v=1';
+
 const immediateCopy = {
   'pt-BR': 'Disponibilidade imediata',
   'pt-PT': 'Disponibilidade imediata',
