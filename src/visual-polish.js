@@ -1,5 +1,5 @@
-const HERO_IMAGE = 'https://step-og.com/wp-content/uploads/2025/10/pessoa4-990x1024.png';
-const SECOND_IMAGE = 'https://step-og.com/wp-content/uploads/2025/10/fabrication-3-1024x1024.png';
+const HERO_IMAGE = 'https://step-og.com/wp-content/uploads/2025/10/fabrication-3-1024x1024.png';
+const SECOND_IMAGE = 'https://step-og.com/wp-content/uploads/2025/10/i.png';
 
 bootPolish();
 
@@ -43,6 +43,10 @@ function polishImages(heroPhoto, secondary) {
   if (heroImg) {
     heroImg.src = HERO_IMAGE;
     heroImg.removeAttribute('referrerpolicy');
+    heroImg.onerror = () => {
+      heroImg.onerror = null;
+      heroImg.src = 'https://step-og.com/wp-content/uploads/2025/10/pessoa4-990x1024.png';
+    };
   }
 
   const secondaryImg = secondary.querySelector('img');
@@ -68,7 +72,7 @@ function injectStyles() {
     .step-polished-logo{display:block!important;width:min(330px,31vw)!important;height:auto!important;max-height:62px!important;object-fit:contain!important;object-position:left center!important}
 
     .step-hero-person{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:24px!important;overflow:hidden!important;min-height:390px!important}
-    .step-hero-person img{display:block!important;width:100%!important;height:100%!important;min-height:390px!important;padding:0!important;object-fit:cover!important;object-position:center 20%!important;border-radius:24px!important}
+    .step-hero-person img{display:block!important;width:100%!important;height:100%!important;min-height:390px!important;padding:0!important;object-fit:cover!important;object-position:center!important;border-radius:24px!important}
     .step-hero-person figcaption{left:22px!important;right:22px!important;bottom:20px!important;border-radius:10px!important;background:rgba(7,27,61,.74)!important;box-shadow:none!important}
 
     .step-before-with-photo{gap:28px!important;align-items:stretch!important}
