@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+  <title id="title">STEP Integrated Solutions</title>
+  <desc id="desc">Logo institucional STEP Integrated Solutions</desc>
+  <defs>
+    <linearGradient id="stepGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#19a8d1"/>
+      <stop offset="0.48" stop-color="#24579b"/>
+      <stop offset="1" stop-color="#22b2cf"/>
+    </linearGradient>
+    <linearGradient id="symbolGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1fb0d2"/>
+      <stop offset="1" stop-color="#23539a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(18 22)">
+    <path d="M4 10h118c19 0 32 13 30 31-2 14-12 23-29 23H73c-14 0-25 3-35 10l-10 7C15 91 1 84 1 69V25C1 17 2 13 4 10Z" fill="url(#symbolGradient)"/>
+    <path d="M48 78h104c16 0 28-7 37-21l31-47c5-8 15-12 24-9 13 4 18 20 10 32l-42 63c-14 21-34 31-60 31H93c-15 0-27 4-38 13l-18 15c-11 9-27 1-27-13v-22c0-23 15-42 38-42Z" fill="url(#symbolGradient)"/>
+    <path d="M88 132h58c16 0 27 17 19 31l-34 54c-8 12-25 13-34 2l-42-48c-11-13-2-33 15-33h18Z" fill="url(#symbolGradient)"/>
+  </g>
+
+  <g fill="url(#stepGradient)">
+    <path d="M315 42h101v39h-61c-9 0-14 5-14 12 0 7 4 10 14 13l28 8c27 8 42 26 42 52 0 35-24 55-62 55h-88v-39h75c10 0 16-4 16-12 0-8-5-11-16-14l-27-8c-27-8-42-25-42-51 0-34 23-55 64-55Z"/>
+    <path d="M420 42h157v43h-54v136h-49V85h-54Z"/>
+    <path d="M598 42h143v42h-94v27h82v39h-82v29h96v42H598Z"/>
+    <path d="M760 42h84c43 0 68 22 68 61 0 40-26 63-69 63h-34v55h-49Zm49 42v42h28c17 0 26-7 26-21 0-14-9-21-26-21Z"/>
+  </g>
+
+  <text x="315" y="210" fill="#55585e" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="8">INTEGRATED SOLUTIONS</text>
+</svg>
