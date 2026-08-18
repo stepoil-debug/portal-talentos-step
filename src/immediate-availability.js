@@ -1,3 +1,4 @@
+import './portal-config.js?v=1';
 import './visual-polish.js?v=3';
 import './compact-layout.js?v=1';
 
