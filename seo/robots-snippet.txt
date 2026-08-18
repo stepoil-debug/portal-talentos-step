@@ -1,0 +1,8 @@
+# Este conteúdo deve ser mesclado ao robots.txt principal de https://step-og.com/
+# Não publicar um robots.txt separado apenas dentro de /careers/, pois crawlers usam o arquivo da raiz do domínio.
+
+User-agent: *
+Allow: /careers/
+
+# O sitemap de careers pode ser incorporado ao sitemap principal do site ou declarado na raiz:
+Sitemap: https://step-og.com/careers/sitemap.xml
